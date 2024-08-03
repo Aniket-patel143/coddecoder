@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Today</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #f0f0f0;
+        }
+
+        .logo {
+            width: 100px;
+            height: 50px;
+            background: #ccc;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .cta {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 20px;
+            background: #fff;
+        }
+
+        .hero h1 {
+            margin: 0 0 20px 0;
+        }
+
+        .hero .text {
+            max-width: 50%;
+        }
+
+        .hero .image {
+            width: 400px;
+            height: 300px;
+            background: #ccc;
+        }
+
+        .hero .cta {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="cta">Call to action</button>
+    </header>
+
+    <section class="hero">
+        <div class="text">
+            <h1>The future of web design, today</h1>
+            <p>The future of web design, today</p>
+            <button class="cta">Call to action</button>
+        </div>
+        <div class="image"></div>
+    </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Mission</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header, .footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .main {
+            padding: 20px 0;
+        }
+        .main h2 {
+            text-align: center;
+        }
+        .main .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .feature {
+            background: #f4f4f4;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .footer .more-info, .footer .contact, .footer .newsletter {
+            width: 30%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .footer .newsletter form input, .footer .newsletter form button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        .footer .newsletter form button {
+            background: #333;
+            color: #fff;
+            border: none;
+        }
+        .footer .newsletter form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>What we do</h1>
+        <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+        <div class="checkboxes">
+            <label><input type="checkbox"> We recycle everything we see</label>
+            <label><input type="checkbox"> We teach people how to reuse their stuff</label>
+            <label><input type="checkbox"> We believe in human being as problem solver</label>
+        </div>
+    </div>
+
+    <div class="container main">
+        <h2>Featured things</h2>
+        <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+        <div class="features">
+            <div class="feature">
+                <h3>The future of web design, today</h3>
+                <p>The future of web design, today</p>
+                <button>Call to action</button>
+            </div>
+            <div class="feature">
+                <h3>The future of web design, today</h3>
+                <p>The future of web design, today</p>
+                <button>Call to action</button>
+            </div>
+            <div class="feature">
+                <h3>The future of web design, today</h3>
+                <p>The future of web design, today</p>
+                <button>Call to action</button>
+            </div>
+        </div>
+        <button>Call to action</button>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="more-info">
+                <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <p>Stay in contact</p>
+                <p>Email: info@contact.com</p>
+                <p>Phone: +34 654 654 654</p>
+            </div>
+            <div class="newsletter">
+                <h3>Subscribe now to the newsletter</h3>
+                <form action="#">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your email">
+                    <label><input type="checkbox"> I consent the privacy policy</label>
+                    <button type="submit">Subscribe!</button>
+                </form>
+            </div>
+        </div>
+        <p>&copy; Basic Components © 2022. All rights reserved.</p>
+    </div>
+
+</body>
+</html> 
